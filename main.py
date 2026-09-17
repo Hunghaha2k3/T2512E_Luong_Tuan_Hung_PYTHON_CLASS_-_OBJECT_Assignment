@@ -1,6 +1,6 @@
 
-
 from TaiKhoanNganHang import TaiKhoanNganHang
+from python_class.Nhan_vien import NhanVien
 
 
 if __name__ == "__main__":
@@ -10,3 +10,9 @@ if __name__ == "__main__":
     acc2.nap_tien(15000)
     print(f"So du tk1: acc1.xem_so_du()")
     print(f"So du tk2: acc2.xem_so_du()")
+
+    nv1 = NhanVien("Luong Hung", 10)
+    print(f"{nv1.__str__()}")
+
+    nv2 = NhanVien("Ngo Nam", 15)
+    print(f"{nv2.__str__()}")
